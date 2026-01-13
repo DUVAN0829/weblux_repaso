@@ -61,4 +61,11 @@ public class Product {
         this.createAt = createAt;
     }
 
+    public Category getCategory() {
+        return category;
+    }
+
+    public void setCategory(Category category) {
+        this.category = category;
+    }
 }
